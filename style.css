@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height: 350px;
+    margin: 5% auto;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 100%;
+    background: rgb(185, 185, 185);
+}
+.image{
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 100%;
+}
+.image2{
+    width: 300px;
+    display: none;
+    border: 2px solid black;
+    height: 100%;
+}
+.BMW{
+    width: 297px;
+    height: 280px;
+    margin-top: 20px;
+}
+.🖤BMW🖤{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+@media (max-width:500px){
+    .container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .card{
+        height: 500px;
+    }
+    .image{
+        display: none;
+    }
+    .image2{
+        display: block;
+        height: 500px;
+    }
+}
